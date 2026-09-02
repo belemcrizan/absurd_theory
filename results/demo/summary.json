@@ -1,0 +1,107 @@
+{
+  "status": "toy_model_only_not_empirical_evidence",
+  "seed": 42,
+  "runs_per_model": 32,
+  "config": {
+    "duration": 80.0,
+    "dt": 0.01,
+    "wave_frequency": 1.7,
+    "wave_amplitude": 0.32,
+    "shell_barrier": 5.0,
+    "wave_shell_drive": 0.46,
+    "measurement_backaction": 5.8,
+    "shell_relaxation": 1.5,
+    "shell_noise": 0.13,
+    "direct_suppression": 5.5,
+    "residual_suppression": 0.15,
+    "bulk_entry_rate": 1.0,
+    "bulk_return_rate": 0.18,
+    "bulk_threshold": 0.62,
+    "bulk_temperature": 0.07,
+    "bulk_attenuation": 0.2,
+    "echo_strength": 0.18,
+    "click_rate": 7.0,
+    "white_noise": 0.16,
+    "colored_noise": 0.13,
+    "colored_rho": 0.985,
+    "glitch_rate": 0.035,
+    "glitch_scale": 0.75,
+    "pulse_start": 10.0,
+    "pulse_interval": 10.0,
+    "pulse_duration": 0.55,
+    "pulse_strength": 1.0,
+    "instrument_recovery": 1.8,
+    "instrument_artifact": 0.75
+  },
+  "representative_wios": {
+    "click_rate": 3.75,
+    "coherent_rms": 0.21238090493222223,
+    "direct_to_residual_ratio": 0.6216910034086417,
+    "post_pulse_click_suppression": 0.9682539682539683,
+    "post_pulse_coherence_retention": 0.8519676962993618,
+    "shell_mean": 0.15303780913247733,
+    "bulk_mean": 0.34216395401280714
+  },
+  "ensemble": {
+    "wios": {
+      "click_rate": {
+        "mean": 4.1515625,
+        "std": 0.2660332488921807
+      },
+      "coherent_rms": {
+        "mean": 0.21347256293560188,
+        "std": 0.0009369084601525595
+      },
+      "direct_to_residual_ratio": {
+        "mean": 0.6499455539975707,
+        "std": 0.02331229726207804
+      },
+      "post_pulse_click_suppression": {
+        "mean": 0.8751615178495616,
+        "std": 0.07464984542144888
+      },
+      "post_pulse_coherence_retention": {
+        "mean": 0.8665949896528815,
+        "std": 0.05673206721830682
+      },
+      "shell_mean": {
+        "mean": 0.1402164600912464,
+        "std": 0.013186128558592752
+      },
+      "bulk_mean": {
+        "mean": 0.3166522369871799,
+        "std": 0.021268282639834227
+      }
+    },
+    "instrumental_null": {
+      "click_rate": {
+        "mean": 6.37890625,
+        "std": 0.25315424462682967
+      },
+      "coherent_rms": {
+        "mean": 0.21358036681505035,
+        "std": 0.0
+      },
+      "direct_to_residual_ratio": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "post_pulse_click_suppression": {
+        "mean": 0.21063492332486194,
+        "std": 0.117920473255483
+      },
+      "post_pulse_coherence_retention": {
+        "mean": 0.7819870342835655,
+        "std": 0.07847861572109245
+      },
+      "shell_mean": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "bulk_mean": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    }
+  }
+}

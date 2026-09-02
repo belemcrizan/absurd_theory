@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Absurd Theory: Wave-Induced Observability Shell Simulator"
+version: 0.1.0
+date-released: 2026-09-02
+authors:
+  - family-names: "Belem"
+    given-names: "Crizan"
+repository-code: "https://github.com/belemcrizan/absurd_theory"
+license: MIT
